@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="website@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="website">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="anyperson"/>
+    <schema id="4" parent="1" name="appdb"/>
+    <schema id="5" parent="1" name="carimages"/>
+    <schema id="6" parent="1" name="computerstore"/>
+    <schema id="7" parent="1" name="fileupload"/>
+    <schema id="8" parent="1" name="information_schema"/>
+    <schema id="9" parent="1" name="libonline"/>
+    <schema id="10" parent="1" name="log_in"/>
+    <schema id="11" parent="1" name="logquery"/>
+    <schema id="12" parent="1" name="mydata"/>
+    <schema id="13" parent="1" name="myqueryhibernate"/>
+    <schema id="14" parent="1" name="mysql"/>
+    <schema id="15" parent="1" name="performance_schema"/>
+    <schema id="16" parent="1" name="queryhibernate"/>
+    <schema id="17" parent="1" name="searchforcars"/>
+    <schema id="18" parent="1" name="sys"/>
+    <schema id="19" parent="1" name="testhibernate"/>
+    <table id="20" parent="2" name="apartment"/>
+    <table id="21" parent="2" name="car"/>
+    <table id="22" parent="2" name="category"/>
+    <table id="23" parent="2" name="hibernate_sequence"/>
+    <table id="24" parent="2" name="house"/>
+    <table id="25" parent="2" name="motorcycle"/>
+    <table id="26" parent="2" name="notebook"/>
+    <table id="27" parent="2" name="phone"/>
+    <table id="28" parent="2" name="subcategory"/>
+    <table id="29" parent="2" name="tablet"/>
+    <table id="30" parent="2" name="user"/>
+    <column id="31" parent="20" name="apartment_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="20" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="20" name="coustruction_type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="34" parent="20" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="35" parent="20" name="floor">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="36" parent="20" name="floors_in_the_building">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="37" parent="20" name="living_space">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="38" parent="20" name="location">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="39" parent="20" name="photo">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="40" parent="20" name="price">
+      <Position>10</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="41" parent="20" name="rooms">
+      <Position>11</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="20" name="title">
+      <Position>12</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="43" parent="20" name="userId">
+      <Position>13</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="44" parent="20" name="FKr5ajmhl9ol845ociatv8w60ql">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="45" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>apartment_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="46" parent="21" name="car_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="21" name="description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="48" parent="21" name="engine_type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="49" parent="21" name="location">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="50" parent="21" name="make">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="51" parent="21" name="milage">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="52" parent="21" name="model">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="53" parent="21" name="photo">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="54" parent="21" name="price">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="55" parent="21" name="steering_wheel">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="56" parent="21" name="title">
+      <Position>11</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="57" parent="21" name="transmission">
+      <Position>12</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="58" parent="21" name="year">
+      <Position>13</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="59" parent="21" name="userId">
+      <Position>14</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="60" parent="21" name="FKil5hk1dy56nf181nqr2ikd6bh">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="61" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>car_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="22" name="category_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="22" name="category_type">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="64" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>category_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="65" parent="23" name="next_val">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <column id="66" parent="24" name="house_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="24" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="68" parent="24" name="coustruction_type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="69" parent="24" name="description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="70" parent="24" name="living_space">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="71" parent="24" name="location">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="72" parent="24" name="photo">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="73" parent="24" name="price">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="74" parent="24" name="rooms">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="75" parent="24" name="title">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="76" parent="24" name="userId">
+      <Position>11</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="77" parent="24" name="FKbyq6fp9020w0jnyj2k65bmkes">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="78" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>house_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="25" name="motorcycle_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="25" name="description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="81" parent="25" name="location">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="82" parent="25" name="photo">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="83" parent="25" name="price">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="84" parent="25" name="title">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="85" parent="25" name="userId">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="86" parent="25" name="FKkfu1yluqusegrqa845p3bag97">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="87" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>motorcycle_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="26" name="notebook_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="26" name="description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="90" parent="26" name="location">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="91" parent="26" name="photo">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="92" parent="26" name="price">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="93" parent="26" name="title">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="94" parent="26" name="userId">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="95" parent="26" name="FKstmj5ih1l03kbrd762fh746kp">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="96" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>notebook_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="97" parent="27" name="phone_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="27" name="description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="99" parent="27" name="location">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="100" parent="27" name="make">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="101" parent="27" name="photo">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="102" parent="27" name="price">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="103" parent="27" name="title">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="104" parent="27" name="userId">
+      <Position>8</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="105" parent="27" name="FKkhnnddqdwsae3tlwh80ixj08a">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="106" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>phone_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="107" parent="28" name="subcategory_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="28" name="subcategoryName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="109" parent="28" name="categoryId">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="110" parent="28" name="FKq4u9sh2vmtbypf6898gb42uoy">
+      <ColNames>categoryId</ColNames>
+    </index>
+    <key id="111" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>subcategory_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="112" parent="29" name="tablet_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="29" name="description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="114" parent="29" name="location">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="115" parent="29" name="make">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="116" parent="29" name="photo">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="117" parent="29" name="price">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="118" parent="29" name="title">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="119" parent="29" name="userId">
+      <Position>8</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <index id="120" parent="29" name="FKjaxho6tvdp4q9r3h9n9aqqrrv">
+      <ColNames>userId</ColNames>
+    </index>
+    <key id="121" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tablet_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="123" parent="30" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="124" parent="30" name="age">
+      <Position>3</Position>
+      <DataType>tinyint(4)|0</DataType>
+    </column>
+    <column id="125" parent="30" name="avatar">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="126" parent="30" name="email">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="127" parent="30" name="name">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="128" parent="30" name="password">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="129" parent="30" name="phone">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="130" parent="30" name="surname">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="131" parent="30" name="username">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="132" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

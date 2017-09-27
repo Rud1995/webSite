@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to bottom, #FAF1FF, white), no-repeat;
+}
+
+#wrapper {
+    width: 650px;
+    height: 900px;
+    padding: 5px;
+    margin: 60px auto 10px auto;
+    border: 1px solid #B5DEAC;
+    border-radius: 25px;
+}
+.indexAds {
+    width: 600px;
+    min-height: 100px;
+    margin: 46px 20px;
+}
+.indexAds table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 130px;
+    width: 480px;
+    height: 100px;
+}
+.indexAds table td {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Microsoft New Tai Lue";
+}
+
+.images {
+    float: left;
+    width: 100px;
+}

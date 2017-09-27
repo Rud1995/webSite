@@ -1,0 +1,159 @@
+body {
+    background: linear-gradient(to bottom, #FAF1FF, white);
+}
+
+#userPage {
+    width: 980px;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#personalInfo {
+    position: absolute;
+    left: 20.5%;
+    top: 140px;
+    width: 790px;
+    padding: 5px;
+    z-index: 1;
+}
+
+#avatar {
+    float: left;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#infoAboutUser {
+    float: left;
+    width: 503px;
+    height: 110px;
+    margin-left: 10px;
+}
+#infoAboutUser table {
+    width: 500px;
+    height: 111px;
+    border-collapse: collapse;
+    text-align: center;
+    background: linear-gradient(to bottom, #FFFCFF, #FAE1FF);
+}
+#infoAboutUser table td {
+    width: 166px;
+    height: 37px;
+    font-size: medium;
+    font-weight: 300;
+    font-family: "Microsoft New Tai Lue";
+}
+
+.sameDesign {
+    float: right;
+    width: 90px;
+    height: 40px;
+    margin: 8px 20px 0 0;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #B5DEAC;
+}
+.sameDesign:hover {
+    background-color: #E2FCF4;
+}
+.sameDesign p {
+    margin: 5px auto 0 auto;
+    text-align: center;
+    color: #000;
+    font-family: "Times New Roman";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#settings {
+    position: relative;
+    bottom: 137px;
+    left: 765px;
+    width: 20px;
+    height: 20px;
+}
+
+#updateInfoAboutUser {
+    display: none;
+    position: absolute;
+    left: 795px;
+    top: 20px;
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    padding: 10px;
+    border: 1px solid beige;
+    background-color: #FFF3F3;
+    box-shadow: 0 0 25px #B0DCA7;
+    z-index: 2;
+}
+#updateInfoAboutUser input {
+    outline-width: 0;
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    margin: 2px 0;
+    background-color: white;
+    border: 1px solid #B0DCA7;
+    border-radius: 20px;
+}
+#updateInfoAboutUser h3 {
+    width: 50px;
+    margin: 6px 30px 0 0;
+    font-weight: 200;
+    padding: 0;
+    float: left;
+}
+
+.adsWrapper {
+    float: left;
+    width: 375px;
+    height: 110px;
+    margin: 20px 0 20px 10px;
+    border:1px solid black;
+    background: linear-gradient(to bottom, #FFFCFF, #FAE1FF);
+}
+
+#userAds {
+    clear: both;
+    width: 790px;
+    margin: 280px auto 40px auto;
+    padding: 5px;
+    padding: 5px;
+}
+
+.adsImg {
+    float: left;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+.infoAboutAds {
+    float: left;
+    width: 250px;
+    height: 110px;
+    margin-left: 2px;
+}
+.infoAboutAds table {
+    width: 250px;
+    height: 110px;
+    margin-left: 4px;
+    border-collapse: collapse;
+    text-align: center;
+    border-width: 0;
+}
+.infoAboutAds table th {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+.infoAboutAds table td {
+    width: inherit;
+    height: 25px;
+    font-size: medium;
+    font-weight: 300;
+    font-family: "Microsoft New Tai Lue";
+}

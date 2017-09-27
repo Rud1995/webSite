@@ -1,0 +1,77 @@
+#wrapper {
+    width: inherit;
+    height: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #FAF1FF, white);
+}
+
+#chooseCategory {
+    position: absolute;
+    left: 386px;
+    top: 102px;
+    width: 168px;
+    height: 145px;
+    border: 1px solid #FAF1FF;
+    background-color: white;
+    box-shadow: 0 0 20px #FAF1FF;
+    padding: -40px 0 -30px 0;
+}
+#chooseCategory ul {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.openRight button {
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    border: 0;
+    outline-width: 0;
+    text-align: left;
+}
+
+.sub-content {
+    display: none;
+    position: absolute;
+    left: 168px;
+    top: -1px;
+    width: 172px;
+    height: auto;
+    border: 1px solid #FAE1FF;
+    background-color: white;
+}
+.sub-content button {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/*blanks*/
+#allBlanks{
+    display: none;
+    position: absolute;
+    left: 728px;
+    top: 102px;
+    width: auto;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #FAE1FF;
+}
+.property {
+    width: 210px;
+    height: auto;
+    display: none;
+}
+.property input, select {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #FAE1FF;
+    box-shadow: 0 0 10px #FAE1FF;
+    margin: 8px auto;
+}
+.property h4 {
+    font-size: 16px;
+}
